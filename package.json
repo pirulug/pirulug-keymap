@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-brackets-keybindings.git"
+    "url": "https://github.com/pirulug/pirulug-keymap.git"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-brackets-keybindings/issues"
+    "url": "https://github.com/pirulug/pirulug-keymap/issues"
   },
   "icon": "pirulug-keyboard.png",
   "contributes": {
