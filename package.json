@@ -2,7 +2,7 @@
   "name": "pirulug-keymap",
   "displayName": "Pirulug Keymap",
   "description": "Pirulug keybindings for VS Code.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "pirulug",
   "engines": {
     "vscode": "^1.92.0"
@@ -56,7 +56,7 @@
       },
       {
         "command": "expandLineSelection",
-        "key": "ctrl-l",
+        "key": "ctrl+l",
         "when": "textInputFocus"
       },
       {
@@ -108,7 +108,7 @@
         "command": "selectAllSearchEditorMatches",
         "key": "alt+f3",
         "mac": "cmd+ctrl+g",
-        "when": "inSearchEditor && inSearchEditor"
+        "when": "inSearchEditor"
       },
       {
         "command": "editor.action.startFindReplaceAction",
@@ -139,13 +139,13 @@
       },
       {
         "command": "workbench.action.gotoLine",
-        "key": "ctrl-g",
-        "mac": "cmd-g"
+        "key": "ctrl+g",
+        "mac": "cmd+g"
       },
       {
         "command": "workbench.action.gotoSymbol",
-        "key": "ctrl-t",
-        "mac": "cmd-t"
+        "key": "ctrl+t",
+        "mac": "cmd+t"
       },
       {
         "command": "workbench.action.showAllSymbols",
@@ -155,7 +155,7 @@
       {
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
-        "key": "ctrl-j",
+        "key": "ctrl+j",
         "mac": "cmd+j"
       },
       {
@@ -176,6 +176,43 @@
         "command": "extension.liveServer.goOnline",
         "key": "ctrl+alt+p",
         "mac": "alt+cmd+p"
+      },
+      {
+        "command": "workbench.action.terminal.toggleTerminal",
+        "key": "ctrl+alt+t",
+        "mac": "alt+cmd+t"
+      },
+      {
+        "command": "workbench.action.focusNextGroup",
+        "key": "ctrl+alt+right",
+        "mac": "alt+cmd+right"
+      },
+      {
+        "command": "workbench.action.focusPreviousGroup",
+        "key": "ctrl+alt+left",
+        "mac": "alt+cmd+left"
+      },
+      {
+        "command": "editor.action.rename",
+        "key": "ctrl+alt+r",
+        "mac": "alt+cmd+r",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "command": "editor.action.quickFix",
+        "key": "ctrl+alt+enter",
+        "mac": "alt+cmd+enter",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "command": "workbench.action.moveEditorLeftInGroup",
+        "key": "ctrl+alt+pageup",
+        "mac": "alt+cmd+pageup"
+      },
+      {
+        "command": "workbench.action.moveEditorRightInGroup",
+        "key": "ctrl+alt+pagedown",
+        "mac": "alt+cmd+pagedown"
       }
     ]
   }
